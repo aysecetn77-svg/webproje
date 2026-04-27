@@ -1,0 +1,72 @@
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+
+header {
+  background-color: purple;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+nav {
+  background-color: #2c2c2c;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 12px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  background-color: purple;
+  border-radius: 4px;
+}
+
+
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+.tanitim h2 {
+  border-bottom: 5px solid purple; /* Daha kalın çizgi */
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+
+footer {
+  background-color: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 8px 0;
+  }
+}
