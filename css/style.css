@@ -4,15 +4,26 @@ body {
   margin: 0;
   background-color: #fafafa;
   color: #333;
+  line-height: 1.6;
+   text-align:center;
 }
 
 
 header {
-  background-color: purple;
+  background-color: #4B0082; 
   color: white;
-  padding: 30px 20px;
+  padding: 20px 15px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+ 
+}
+header p {
+  margin: 5px 0 0;
+  
 }
 
 
@@ -36,22 +47,49 @@ nav ul li a {
   padding: 8px 12px;
   transition: all 0.3s ease;
 }
-nav ul li a:hover {
-  background-color: purple;
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #4B0082;
   border-radius: 4px;
+}
+
+
+.profile-photo {
+  width: 400px;      
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 
 main {
   padding: 40px 20px;
-  text-align: center;
 }
-.tanitim h2 {
-  border-bottom: 5px solid purple; /* Daha kalın çizgi */
+main h2 {
+  border-bottom: 4px solid #4B0082;
   display: inline-block;
   padding-bottom: 8px;
   margin-bottom: 20px;
   font-size: 1.8em;
+}
+
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+
+.hobi-list {
+  list-style-type: disc;
+  list-style-position: inside; 
+  padding-left: 0;
+  margin: 10px 0;
+}
+.hobi-list li {
+  margin: 6px 0;
+  font-size: 1em;
 }
 
 
@@ -64,9 +102,15 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   nav ul li {
     display: block;
     margin: 8px 0;
+  }
+  main {
+    padding: 20px;
+  }
+  .profile-photo {
+    width: 180px; 
   }
 }
