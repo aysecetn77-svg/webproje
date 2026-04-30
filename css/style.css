@@ -139,3 +139,39 @@ ul li {
   font-size: 1em;
 }
 
+
+
+
+
+
+.sehrim-section h2 {
+  color: #4B0082;              
+  border-bottom: 3px solid #4B0082;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  font-size: 1.6em;
+}
+
+.sehrim-list {
+  list-style-type: disc;
+  list-style-position: outside;   
+  padding-left: 20px;
+  margin: 10px 0;
+}
+.sehrim-list li {
+  margin: 6px 0;
+  font-size: 1em;
+}
+
+
+.carousel {
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.carousel img {
+  max-height: 400px;
+  object-fit: cover;              
+}
