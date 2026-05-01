@@ -139,11 +139,6 @@ ul li {
   font-size: 1em;
 }
 
-
-
-
-
-
 .sehrim-section h2 {
   color: #4B0082;              
   border-bottom: 3px solid #4B0082;
@@ -175,3 +170,81 @@ ul li {
   max-height: 400px;
   object-fit: cover;              
 }
+
+
+.miras-section h2 {
+  color: #4B0082;
+  border-bottom: 3px solid #4B0082; 
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  font-size: 1.6em;
+}
+
+
+.miras-section p {
+  font-size: 1.05em;
+  line-height: 1.7;
+  margin: 8px 0;
+}
+
+
+.miras-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 10px 0;
+}
+.miras-list li {
+  background: #f3f0f9;
+  padding: 10px;
+  margin-bottom: 8px;
+  font-size: 1.05em;
+  line-height: 1.6;
+  border-radius: 5px; 
+}
+
+#mirasSlider {
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+#mirasSlider img {
+  max-height: 450px;
+  object-fit: cover;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+
+.btn-link {
+  display: inline-block;
+  background-color: #4B0082;  
+  color: #fff;               
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+  background-color: #6A0DAD;  
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
