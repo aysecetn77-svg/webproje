@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>İletişim</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Web Projeme Hoşgeldiniz</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="hakkimda.html">Hakkımda</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="sehrim.html">Şehrim</a></li>
+      <li><a href="mirasimiz.html">Mirasımız</a></li>
+      <li><a href="ilgi.html">İlgi Alanlarım</a></li>
+      <li><a class="active" href="iletisim.html">İletişim</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+   <main>
+  <h2>İletişim Formu</h2>
+  <div class="form-card">
+    <form id="contactForm" action="php/form.php" method="POST">
+      <label>Ad Soyad:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label>E-posta:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label>Telefon:</label>
+      <input type="text" id="phone" name="phone" required><br>
+
+      <label>Cinsiyet:</label>
+      <input type="radio" name="gender" value="Kadın"> Kadın
+      <input type="radio" name="gender" value="Erkek"> Erkek<br>
+
+      <label>İlgi Alanları:</label>
+      <input type="checkbox" name="interest[]" value="Spor"> Spor
+      <input type="checkbox" name="interest[]" value="Müzik"> Müzik
+      <input type="checkbox" name="interest[]" value="Teknoloji"> Teknoloji<br>
+
+      <label>Konu:</label>
+      <select id="subject" name="subject" required>
+        <option value="">Seçiniz...</option>
+        <option value="web">Web Geliştirme</option>
+        <option value="yapayzeka">Yapay Zeka</option>
+        <option value="programlama">Programlama</option>
+        <option value="donanım">Bilgisayar Donanımı</option>
+        <option value="mobil">Mobil Uygulamalar</option>
+      </select><br>
+
+      <label>Mesaj:</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+
+      <button type="button" id="jsValidateBtn">JS ile Kontrol Et</button>
+      <button type="button" id="vueValidateBtn">Vue ile Kontrol Et</button>
+      <button type="submit">Gönder</button>
+    </form>
+  </div>
+</main>
+
+  <footer>
+    <p>&copy; 2026 Web Proje - Ayşe Çetin</p>
+  </footer>
+
+
+  <script src="js/form.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="js/vue.js"></script>
+</body>
+</html>
