@@ -20,7 +20,6 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     return;
   }
 
- 
   const emailRegex = /^[^@]+@sakarya\.edu\.tr$/i;
   if (!emailRegex.test(username)) {
     alert("Mail adresi sakarya.edu.tr formatında olmalıdır!");
