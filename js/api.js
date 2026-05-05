@@ -1,5 +1,5 @@
 const apiKey = "8a1fd318d7f5829faf79cbe2457c138c"; 
-const avengersIds = [24428, 99861, 299534, 299536]; 
+const avengersIds = [ 299536,22,2109,51497,10191,353486,19995,9502]; 
 
 async function getAvengers() {
   const filmList = document.getElementById("film-list");
@@ -29,7 +29,8 @@ async function getAvengers() {
         const shortOverview = movie.overview ? movie.overview.split(".")[0] + "." : "Açıklama yok.";
 
         const filmCard = document.createElement("div");
-        filmCard.className = "col-md-6 mb-4";
+      filmCard.className = "col mb-4";
+
         filmCard.innerHTML = `
           <div class="film-card h-100">
             <img src="https://image.tmdb.org/t/p/w300${movie.poster_path}" alt="${movie.title}" class="img-fluid rounded">

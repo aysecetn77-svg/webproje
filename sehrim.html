@@ -7,12 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Şehrim - Antalya</title>
   <link rel="stylesheet" href="css/style.css">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
   
-  <header>
+  <header class="text-center p-4 bg-light">
     <h1>Şehrim</h1>
     <p>Antalya</p>
   </header>
@@ -30,25 +29,87 @@
     </ul>
   </nav>
 
-  
   <main class="container my-5">
-<section class="sehrim-section">
+    <div class="card p-4 shadow custom-card">
+   <section class="sehrim-section">
+      <h2>Akdeniz’in İncisi Antalya</h2>
+      <article>
+        <p>Türkiye’nin turizm başkenti ve Akdeniz’in parlayan yıldızı Antalya’ya hoş geldiniz! 
+        Masmavi denizi, altın sarısı plajları ve binlerce yıllık tarihle harmanlanmış sokakları ile Antalya, 
+        sadece bir tatil rotası değil; aynı zamanda eşsiz bir yaşam merkezidir. 
+        Toros Dağları’nın gölgesinde, doğanın ve modernitenin kusursuz uyumuna tanıklık etmeye hazır olun.</p>
+      </article>
+    </section>
+   
+    <section class="sehrim-section">
+      <h2>Atatürk ve Antalya</h2>
+      <article>
+        <p>Ulu Önder Mustafa Kemal Atatürk, Antalya’yı ziyaret ettiğinde şehre hayran kalmış ve 
+        <strong>“Hiç şüphesiz ki Antalya dünyanın en güzel yeridir.”</strong> sözünü söylemiştir. 
+        Bu ifade, Antalya’nın eşsiz doğası ve güzelliklerini en iyi şekilde anlatmaktadır.</p>
+      </article>
+    </section>
+
+  
+ 
+
+   <section class="row my-5">
+  
+  <div class="col-md-4">
+    <h2>Tarihin İzinde: Kadim Şehirler</h2>
+    <ul class="sehrim-list">
+      <li><strong>Kaleiçi:</strong> Dar sokakları, tarihi Osmanlı evleri ve Hadrian Kapısı ile şehrin kalbi burada atar.</li>
+      <li><strong>Antik Kentler:</strong> Aspendos, Phaselis, Perge ve Termessos tarih meraklılarını bekliyor.</li>
+      <li><strong>Müzeler:</strong> Antalya Müzesi, bölgenin kronolojik tarihini gözler önüne seriyor.</li>
+    </ul>
+  </div>
+
+  
+  <div class="col-md-4">
+    <h2>Doğal Güzellikler</h2>
+    <ul class="sehrim-list">
+      <li><strong>Şelaleler:</strong> Düden, Kurşunlu ve Manavgat Şelaleleri serinletici bir kaçış noktasıdır.</li>
+      <li><strong>Mağaralar:</strong> Karain Mağarası, insanlık tarihine ışık tutmaktadır.</li>
+      <li><strong>Kanyonlar:</strong> Köprülü Kanyon, rafting ve doğa yürüyüşü için vazgeçilmezdir.</li>
+    </ul>
+  </div>
+
+  
+  <div class="col-md-4">
+    <h2>Dünyaca Ünlü Plajlar</h2>
+    <ul class="sehrim-list">
+      <li><strong>Konyaaltı Plajı:</strong> Şehir merkezinde, dağ manzarasına karşı uzun bir sahil şeridi.</li>
+      <li><strong>Lara Plajı:</strong> İnce kumu ve geniş plajlarıyla ünlü, lüks otellerin merkezi.</li>
+      <li><strong>Kaputaş Plajı:</strong> Kaş yolunda, turkuaz rengiyle kartpostalları süsleyen doğa harikası.</li>
+    </ul>
+  </div>
+</section>
+
+
+
+  
+    <section class="sehrim-section">
       <h2>Fotoğraf Galerisi</h2>
       <div id="sehrimSlider" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item ">
              <a href="images/Kaleici.jpg" target="_blank">
             <img src="images/Kaleici.jpg" class="d-block w-100" alt="Kaleiçi">
             </a>
           </div>
+          <div class="carousel-item active">
+             <a href="images/Konyaalti.jpg" target="_blank">
+            <img src="images/konyaalti.jpg" class="d-block w-100" alt="Konyaalti">
+            </a>
+          </div>
           <div class="carousel-item">
-              <a href="images/DüdenSelalesi.jpg" target="_blank">
+             <a href="images/DüdenSelalesi.jpg" target="_blank">
             <img src="images/DüdenSelalesi.jpg" class="d-block w-100" alt="Düden Şelalesi">
             </a>
           </div>
           <div class="carousel-item">
-              <a href="images/Myra.jpg" target="_blank">
-            <img src="images/Myra.jpg" class="d-block w-100" alt="Myra Antik Kenti">
+              <a href="images/AlanyaKalesi.jpg" target="_blank">
+            <img src="images/AlanyaKalesi.jpg" class="d-block w-100" alt="Alanya Kalesi">
             </a>
           </div>
           <div class="carousel-item">
@@ -62,7 +123,7 @@
             </a>
           </div>
           <div class="carousel-item">
-              <a href="images/Saklikent.jpg" target="_blank">
+            <a href="images/SakliKent.jpg" target="_blank">
             <img src="images/Saklikent.jpg" class="d-block w-100" alt="Fethiye Saklıkent">
             </a>
           </div>
@@ -74,71 +135,86 @@
           <span class="carousel-control-next-icon"></span>
         </button>
       </div>
-    </section>    
-    <section class="sehrim-section">
-      <h2>Nüfus</h2>
-      <article>
-        <p>Antalya ili, yaklaşık 2,7 milyon kişilik nüfusa sahiptir. Türkiye’nin en önemli turizm merkezlerinden biridir.</p>
-      </article>
     </section>
+  
     <section class="sehrim-section">
-      <h2>Tarihçe</h2>
+      <h2>Kültür ve Sanatın Merkezi</h2>
       <article>
-        <p>Antalya, M.Ö. 2. yüzyılda II. Attalos tarafından kurulmuştur. Roma, Bizans ve Osmanlı dönemlerinde 
-        önemli bir liman şehri olarak kullanılmıştır. Kaleiçi ve çevresindeki tarihi yapılar bu geçmişin izlerini taşır.</p>
+        <p>Antalya yıl boyunca uluslararası organizasyonlara ev sahipliği yapar. 
+        Antalya Altın Portakal Film Festivali ve Aspendos Opera ve Bale Festivali, şehrin kültürel dinamizmini en üst seviyeye taşır.</p>
       </article>
     </section>
 
-    
-    <section class="sehrim-section">
-      <h2>Yemekler</h2>
-      <article>
+    <section class="row my-5">
+      <div class="col-md-4">
+        <h2>Gastronomi:Antalya Mutfağı</h2>
         <ul class="sehrim-list">
-          <li>Köfte,Piyaz (Antalya’ya özgü tahinli)</li>
+          <li>Köfte, Piyaz (Antalya’ya özgü tahinli)</li>
           <li>Kölle</li>
           <li>Tahinli Hibeş</li>
           <li>Kabak Tatlısı</li>
           <li>Gülüklü Çorbası</li>
+          <li>Turunç Reçeli</li>
         </ul>
-      </article>
-    </section>
-
-      <section class="sehrim-section">
-      <h2>Kültürel Ögeleri</h2>
-      <article>
+      </div>
+           <div class="col-md-4">
+        <h2>Kültürel Öğeler</h2>
         <ul class="sehrim-list">
           <li>Köklü Tarihi Antik Kentler</li>
           <li>Döşemealtı Halıları ve Festivalleri</li>
           <li>Yörük Şenlikleri</li>
-          <li>Selçuklu ve Osmanlı izleri taşıyan Kaleiçi</li>
+          <li>Kaleiçi’nde Selçuklu ve Osmanlı izleri</li>
         </ul>
-      </article>
-    </section>
-  
-    <section class="sehrim-section">
-      <h2>Gezilecek Yerler</h2>
-      <article>
+      </div>
+
+      <div class="col-md-4">
+        <h2>Gezilecek Yerler</h2>
         <ul class="sehrim-list">
+          <li>Konyaaltı Plajı</li>
           <li>Kaleiçi</li>
           <li>Düden Şelalesi</li>
-          <li>Myra Antik Kenti</li>
+          <li>Alanya Kalesi</li>
           <li>Aspendos Antik Tiyatrosu</li>
-          <li>Kaş Merkez</li>
+          <li>Kaş </li>
           <li>Fethiye Saklıkent</li>
         </ul>
-      </article>
+      </div>
     </section>
 
-    
-    
+  <section class="sehrim-section">
+  <h2>Nüfus</h2>
+  <article>
+    <p>Antalya’nın 2025 yılı resmi nüfusu 
+    <strong>2.777.677</strong> kişidir. 
+    Bu nüfusun <strong>1.397.014</strong>’ü erkek, 
+    <strong>1.380.663</strong>’ü kadındır. 
+    2026 yılı için tahmini nüfus ise yaklaşık 
+    <strong>2.817.799</strong> olarak öngörülmektedir.</p>
+  </article>
+</section>
+
+    <section class="sehrim-section">
+      <h2>Turizm</h2>
+      <article>
+        <p>Antalya, Türkiye’nin turizm başkenti olarak kabul edilmektedir. 
+        Akdeniz’in eşsiz kıyıları, mavi bayraklı plajları ve yılın büyük bölümünde güneşli iklimi sayesinde 
+        her yıl milyonlarca turist şehri ziyaret etmektedir.</p>
+
+        <p>Şehir, sadece deniz turizmiyle değil; aynı zamanda tarihi ve kültürel zenginlikleriyle de öne çıkar. 
+        Kaleiçi’nin dar sokakları, Aspendos Antik Tiyatrosu, Perge ve Termessos gibi antik kentler 
+        ziyaretçilere geçmişin izlerini sunar.</p>
+
+        <p>Antalya ayrıca kongre turizmi, spor turizmi ve doğa turizmi açısından da gelişmiştir. 
+        Golf sahaları, uluslararası spor organizasyonları ve yayla turizmi şehri dört mevsim cazip hale getirir.</p>
+      </article>
+    </section>
+</div>
   </main>
 
-  
-  <footer>
+  <footer class="text-center p-3 bg-light">
     <p>&copy; 2026 Web Proje - Ayşe Çetin</p>
   </footer>
 
-  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

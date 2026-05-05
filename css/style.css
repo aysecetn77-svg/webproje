@@ -2,7 +2,7 @@
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
-  background-color: #fafafa;
+  background-color: #f5f5f5;
   color: #333;
   line-height: 1.6;
    text-align:center;
@@ -80,11 +80,14 @@ nav ul li a.active {
   border-radius: 4px;
 }
 
+
+
 .profile-photo {
-  width: 400px;      
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  width: 310x; 
+  height: 310px;      
+  object-fit: cover;
+  border-radius: 60%; 
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2); 
 }
 
 main {
@@ -100,8 +103,8 @@ main h2 {
 }
 
 .card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #e6daf1;
+  border: 1px solid #460000;
   border-radius: 8px;
 }
 
@@ -216,7 +219,7 @@ ul li {
   overflow: hidden;
 }
 .carousel img {
-  max-height: 400px;
+  max-height: 500px;
   object-fit: cover;              
 }
 
@@ -372,3 +375,49 @@ button:hover {
   margin: 30px auto;
   text-align: center;
 }
+
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  color: #4b0082; /* mor ton */
+  margin-bottom: 1rem;
+}
+
+.badge {
+  font-size: 0.9rem;
+  margin: 0.2rem;
+}
+
+.sehrim-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sehrim-list li {
+  background: #f9f9f9;
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+h2 {
+  color: #4b0082;
+  border-bottom: 2px solid #4b0082;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.custom-card {
+  background-color: #e6daf1 !important; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
