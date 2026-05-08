@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
@@ -7,7 +6,6 @@ body {
   line-height: 1.6;
    text-align:center;
 }
-
 
 header {
   background: linear-gradient(135deg, #360c45, #a25ab8); 
@@ -31,6 +29,7 @@ footer {
   padding: 15px;
   margin-top: 117px;
 }
+
 .sakarya-link {
   color: #4B0082;         
   font-weight: bold;      
@@ -54,36 +53,9 @@ footer {
   text-decoration: none;  
 }
 
-nav {
-  background-color: #cfcfcf;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-}
-nav ul li {
-  display: inline-block;
-  margin: 0 12px;
-}
-nav ul li a {
-  color: rgb(56, 0, 94);
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 12px;
-  transition: all 0.3s ease;
-}
-nav ul li a:hover,
-nav ul li a.active {
-  background-color: #815799;
-  border-radius: 4px;
-}
-
-
 
 .profile-photo {
-  width: 310x; 
+  width: 310px; 
   height: 310px;      
   object-fit: cover;
   border-radius: 60%; 
@@ -119,8 +91,6 @@ main h2 {
   margin: 6px 0;
   font-size: 1em;
 }
-
-
 
 .project-card {
   background: #e6daf1;              
@@ -357,7 +327,7 @@ button:hover {
 }
 
 .form-card {
-  background: #d8b4e2; 
+  background: #e6daf1; 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -367,7 +337,7 @@ button:hover {
 }
 
 .login-card {
-  background: #d8b4e2;
+  background: #e6daf1;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -421,3 +391,70 @@ h2 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+
+@media (max-width: 768px) {
+  .form-card,
+  .login-card {
+    width: 90%;  
+    margin: 20px auto;
+    padding: 15px;
+  }
+}
+s
+
+  input, select, textarea, button {
+    font-size: 1em;   
+  }
+
+  button {
+    width: 100%;   
+    margin-right: 0;  
+  }
+
+.outer-card {
+  background: #e6daf1;  
+  padding: 25px;
+    border: 1px solid #460000;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.navbar-nav .nav-link {
+  color: #4b0082 !important; 
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: #6a0dad;
+  color: #ffffff !important;
+  border-radius: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #8a2be2;
+  color: #ffffff !important;
+  border-radius: 6px;
+}
+.custom-navbar {
+  background-color: #cfcfcf; 
+  position: relative;
+  top: 0;
+  z-index: 1000;
+
+}
+.navbar-toggler {
+  border-color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;  
+}
+
+.navbar-nav .nav-link {
+  padding: 8px 15px; 
+}

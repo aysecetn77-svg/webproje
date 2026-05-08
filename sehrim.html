@@ -16,18 +16,27 @@
     <p>Antalya</p>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Ana Sayfa</a></li>
-      <li><a href="hakkimda.html">Hakkımda</a></li>
-      <li><a href="cv.html">Özgeçmiş</a></li>
-      <li><a class="active" href="sehrim.html">Şehrim</a></li>
-      <li><a href="mirasimiz.html">Mirasımız</a></li>
-      <li><a href="ilgi.html">İlgi Alanlarım</a></li>
-      <li><a href="iletisim.html">İletişim</a></li>
-      <li><a href="login.html">Login</a></li>
-    </ul>
-  </nav>
+<nav class="navbar navbar-expand-lg navbar-light  custom-navbar">
+  <div class="container-fluid">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link " href="index.html">Ana Sayfa</a></li>
+        <li class="nav-item"><a class="nav-link" href="hakkimda.html">Hakkımda</a></li>
+        <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link active" href="sehrim.html">Şehrim</a></li>
+        <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
+        <li class="nav-item"><a class="nav-link" href="ilgi.html">İlgi Alanlarım</a></li>
+        <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
   <main class="container my-5">
     <div class="card p-4 shadow custom-card">
@@ -85,9 +94,6 @@
   </div>
 </section>
 
-
-
-  
     <section class="sehrim-section">
       <h2>Fotoğraf Galerisi</h2>
       <div id="sehrimSlider" class="carousel slide" data-bs-ride="carousel">
